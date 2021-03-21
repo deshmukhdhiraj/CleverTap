@@ -1,0 +1,3 @@
+include ':CleverTabSDK'
+include ':app'
+rootProject.name = "CleverTap"

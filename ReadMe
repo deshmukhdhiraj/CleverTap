@@ -1,0 +1,16 @@
+How to use
+Attach the arr Given .arr file.
+
+In Application class of your app just initlize the library like
+lateinit var libCleverTap: LibCleverTap
+and then jus assign the intance method to it like
+ libCleverTap = instance
+
+Now Wherever you want to use library just write below code you will get insatce of the library
+        val hostApplication: HostApplication = applicationContext as HostApplication
+        val libCleverTap: LibCleverTap = hostApplication.libCleverTap
+
+
+ using libCleverTap you can access methods from the library.
+
+* To see drawbles in list you need to store all the drawbles under Assets/Drawables folder
