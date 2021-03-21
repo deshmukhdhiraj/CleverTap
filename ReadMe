@@ -1,12 +1,15 @@
 How to use
-Attach the arr Given .arr file.
-
+Attach the  .arr file to your project.
 In Application class of your app just initlize the library like
+
 lateinit var libCleverTap: LibCleverTap
-and then jus assign the intance method to it like
+
+and then assign the intance method to it like
+
  libCleverTap = instance
 
 Now Wherever you want to use library just write below code you will get insatce of the library
+
         val hostApplication: HostApplication = applicationContext as HostApplication
         val libCleverTap: LibCleverTap = hostApplication.libCleverTap
 
